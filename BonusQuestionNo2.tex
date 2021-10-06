@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+\title{BonusQuestion No2 }
+\author{M.Ardestani , 9513004}
+\maketitle
+\noindent ``Printing Problem'': The problem to decide for every Turing machine M whether or not it will ever print some symbol (For Example $\Psi$) for input  $x$.\\
++In First step we use ``reduction technique''.\\
+Simply we add one state after halting state that will print symbol $\Psi$ that is not exist in our output alphabet.Now our Problem is reduced to Halting Problem.\\
++In secong step we just need to show haltign problem is ``undecidable''.\\
+Suppose we have one machine(equally an Algorithem) for Halting Problem named H.\\
+\vspace{-\baselineskip}
+\vspace{-\baselineskip}
+\begin{center}
+\includegraphics[scale=0.7]{H.png}
+\end{center}
+Now if we take H as an input of H.py we will reach a contradiction.\\
+So Haltig problem and also Printing Problem is undecidable.
+\end{document}
